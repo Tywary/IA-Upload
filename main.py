@@ -2,9 +2,13 @@ from internetarchive import *
 import os
 import time
 
-
+#Internet Archive, Mintlify Doc Writer, Git, VSC
 
 def user_input():
+    """
+    The function `user_input` in Python prompts the user to input information for uploading single or
+    multiple files based on user input.
+    """
     global collectionname, title, typem, identifier, accesskey, secretkey, list_of_files, file, mdata, status
     status = 0
     Prompt = None
@@ -67,6 +71,10 @@ def user_input():
 
 
 def upload_multiple():
+    """
+    This Python function `upload_multiple` uploads multiple files and updates the `status` variable
+    based on the response status code.
+    """
     global status
     status = 0
     r = upload(identifier, files=list_of_files, metadata=mdata, access_key=accesskey, secret_key=secretkey)
@@ -116,6 +124,10 @@ def uploading_single():
         
             
 def uploading_multi():
+    """
+    The function `uploading_multi` is designed to upload multiple files with a progress indicator and
+    display success or error messages accordingly.
+    """
     n = len(list_of_files) + 1
     status = 0
     symbols = ['⣾', '⣷', '⣯', '⣟', '⡿', '⢿', '⣻', '⣽']
@@ -143,6 +155,9 @@ def uploading_multi():
     
 def __init__():
 
+# The `print` statement you provided is displaying a stylized ASCII art text that spells out "Internet
+# Archive" in a decorative format. This is a creative way to visually represent the name of the
+# service or project.
     print(r"""                ██╗███╗░░██╗████████╗███████╗██████╗░███╗░░██╗███████╗████████╗
                 ██║████╗░██║╚══██╔══╝██╔════╝██╔══██╗████╗░██║██╔════╝╚══██╔══╝
                 ██║██╔██╗██║░░░██║░░░█████╗░░██████╔╝██╔██╗██║█████╗░░░░░██║░░░
@@ -166,6 +181,9 @@ def __init__():
     print(' Start - 1 \n Exit - 2')
     promp = None
     while promp != (1, 2):
+        # The line `promp = int(input('Enter 1 to start or 2 to exit: '))` is prompting the user to
+        # input either 1 or 2. The `input` function displays the message "Enter 1 to start or 2 to
+        # exit: " to the user, and the user is expected to enter a value.
         promp = int(input('Enter 1 to start or 2 to exit: '))
         if promp == 1:
             user_input()
