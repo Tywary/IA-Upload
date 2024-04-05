@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/giCvs6o.png" alt="Project logo"></a>
+ <img src="https://i.imgur.com/giCvs6o.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Internet Archive Uploader</h3>
