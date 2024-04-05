@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://i.imgur.com/giCvs6o.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Internet Archive Uploader</h3>
@@ -8,8 +8,8 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/Tywary/IA-Upload/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/Tywary/IA-Upload/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/Tywary/IA-Upload.svg)](https://github.com/Tywary/IA-Upload/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Tywary/IA-Upload.svg)](https://github.com/Tywary/IA-Upload/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
