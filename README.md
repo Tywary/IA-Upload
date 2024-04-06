@@ -36,7 +36,7 @@ Took this project up as a short project after looking at several posts on r/Inte
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. If you do not wish to use the python file just download the built version in the releases section and run the standalone exe.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. If you do not wish to use the python file just <a href="https://github.com/Tywary/IA-Upload/blob/main/dist/InternetArchiveUploader.exe">download</a> the built version in the releases section and run the standalone exe.
 
 ### Prerequisites
 
